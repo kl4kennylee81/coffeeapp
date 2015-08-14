@@ -7,12 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C71EEE4A1B43EB17006359A7 /* Transactions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71EEE491B43EB17006359A7 /* Transactions.swift */; };
+		C71EEE4F1B43F193006359A7 /* coffee.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C71EEE4E1B43F193006359A7 /* coffee.jpg */; };
+		C71EEE511B43F84B006359A7 /* employee_wVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71EEE501B43F84B006359A7 /* employee_wVC.swift */; };
+		C77C95C51B447D6E00BC3984 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C77C95C41B447D6E00BC3984 /* Main.storyboard */; };
+		C7BC20C61B44706E005FDA89 /* internVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BC20C51B44706E005FDA89 /* internVC.swift */; };
 		C7D9B8031B4320BB007404BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D9B8021B4320BB007404BA /* AppDelegate.swift */; };
 		C7D9B8051B4320BB007404BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D9B8041B4320BB007404BA /* ViewController.swift */; };
-		C7D9B8081B4320BB007404BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7D9B8061B4320BB007404BA /* Main.storyboard */; };
 		C7D9B80A1B4320BB007404BA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7D9B8091B4320BB007404BA /* Images.xcassets */; };
 		C7D9B80D1B4320BB007404BA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7D9B80B1B4320BB007404BA /* LaunchScreen.xib */; };
 		C7D9B8191B4320BB007404BA /* test1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D9B8181B4320BB007404BA /* test1Tests.swift */; };
+		C7D9B8231B4332A5007404BA /* loginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D9B8221B4332A5007404BA /* loginVC.swift */; };
+		C7D9B8251B433409007404BA /* signupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D9B8241B433409007404BA /* signupVC.swift */; };
+		C7D9B83C1B43A4C0007404BA /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D9B83B1B43A4C0007404BA /* User.swift */; };
+		C7D9B8401B43A4E8007404BA /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D9B83F1B43A4E8007404BA /* Users.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +34,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C71EEE491B43EB17006359A7 /* Transactions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Transactions.swift; sourceTree = "<group>"; };
+		C71EEE4E1B43F193006359A7 /* coffee.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = coffee.jpg; sourceTree = "<group>"; };
+		C71EEE501B43F84B006359A7 /* employee_wVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = employee_wVC.swift; sourceTree = "<group>"; };
+		C77C95C41B447D6E00BC3984 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		C7BC20C51B44706E005FDA89 /* internVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = internVC.swift; sourceTree = "<group>"; };
 		C7D9B7FD1B4320BB007404BA /* test1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7D9B8011B4320BB007404BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C7D9B8021B4320BB007404BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C7D9B8041B4320BB007404BA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C7D9B8071B4320BB007404BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C7D9B8091B4320BB007404BA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C7D9B80C1B4320BB007404BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		C7D9B8121B4320BB007404BA /* test1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = test1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7D9B8171B4320BB007404BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C7D9B8181B4320BB007404BA /* test1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test1Tests.swift; sourceTree = "<group>"; };
+		C7D9B8221B4332A5007404BA /* loginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = loginVC.swift; sourceTree = "<group>"; };
+		C7D9B8241B433409007404BA /* signupVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = signupVC.swift; sourceTree = "<group>"; };
+		C7D9B83B1B43A4C0007404BA /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		C7D9B83F1B43A4E8007404BA /* Users.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
+		C7ED66851B43A6C700127BEB /* test1-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "test1-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +73,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C71EEE4B1B43F13C006359A7 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				C71EEE4E1B43F193006359A7 /* coffee.jpg */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
 		C7D9B7F41B4320BB007404BA = {
 			isa = PBXGroup;
 			children = (
@@ -78,11 +103,17 @@
 			isa = PBXGroup;
 			children = (
 				C7D9B8021B4320BB007404BA /* AppDelegate.swift */,
+				C77C95C41B447D6E00BC3984 /* Main.storyboard */,
 				C7D9B8041B4320BB007404BA /* ViewController.swift */,
-				C7D9B8061B4320BB007404BA /* Main.storyboard */,
+				C71EEE501B43F84B006359A7 /* employee_wVC.swift */,
+				C7D9B8221B4332A5007404BA /* loginVC.swift */,
+				C7D9B8241B433409007404BA /* signupVC.swift */,
+				C7BC20C51B44706E005FDA89 /* internVC.swift */,
 				C7D9B8091B4320BB007404BA /* Images.xcassets */,
 				C7D9B80B1B4320BB007404BA /* LaunchScreen.xib */,
+				C7D9B8281B434A59007404BA /* Model */,
 				C7D9B8001B4320BB007404BA /* Supporting Files */,
+				C71EEE4B1B43F13C006359A7 /* images */,
 			);
 			path = test1;
 			sourceTree = "<group>";
@@ -98,6 +129,7 @@
 		C7D9B8151B4320BB007404BA /* test1Tests */ = {
 			isa = PBXGroup;
 			children = (
+				C7D9B8261B4349FC007404BA /* New Group */,
 				C7D9B8181B4320BB007404BA /* test1Tests.swift */,
 				C7D9B8161B4320BB007404BA /* Supporting Files */,
 			);
@@ -110,6 +142,25 @@
 				C7D9B8171B4320BB007404BA /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C7D9B8261B4349FC007404BA /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "New Group";
+			path = ../test1;
+			sourceTree = "<group>";
+		};
+		C7D9B8281B434A59007404BA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C7ED66851B43A6C700127BEB /* test1-Bridging-Header.h */,
+				C7D9B83B1B43A4C0007404BA /* User.swift */,
+				C7D9B83F1B43A4E8007404BA /* Users.swift */,
+				C71EEE491B43EB17006359A7 /* Transactions.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,9 +243,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C7D9B8081B4320BB007404BA /* Main.storyboard in Resources */,
+				C71EEE4F1B43F193006359A7 /* coffee.jpg in Resources */,
 				C7D9B80D1B4320BB007404BA /* LaunchScreen.xib in Resources */,
 				C7D9B80A1B4320BB007404BA /* Images.xcassets in Resources */,
+				C77C95C51B447D6E00BC3984 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,8 +264,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7D9B8251B433409007404BA /* signupVC.swift in Sources */,
 				C7D9B8051B4320BB007404BA /* ViewController.swift in Sources */,
+				C71EEE4A1B43EB17006359A7 /* Transactions.swift in Sources */,
+				C7D9B8401B43A4E8007404BA /* Users.swift in Sources */,
+				C71EEE511B43F84B006359A7 /* employee_wVC.swift in Sources */,
+				C7D9B8231B4332A5007404BA /* loginVC.swift in Sources */,
+				C7D9B83C1B43A4C0007404BA /* User.swift in Sources */,
 				C7D9B8031B4320BB007404BA /* AppDelegate.swift in Sources */,
+				C7BC20C61B44706E005FDA89 /* internVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,14 +295,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		C7D9B8061B4320BB007404BA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C7D9B8071B4320BB007404BA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C7D9B80B1B4320BB007404BA /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -340,9 +391,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = test1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "test1/test1-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -350,9 +404,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = test1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "test1/test1-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -409,6 +465,7 @@
 				C7D9B81E1B4320BB007404BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C7D9B81F1B4320BB007404BA /* Build configuration list for PBXNativeTarget "test1Tests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +474,7 @@
 				C7D9B8211B4320BB007404BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
